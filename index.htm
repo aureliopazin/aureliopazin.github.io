@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+	Desenvolvido por: Aurélio Pazin
+-->
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<title></title>
+		<style type="text/css">
+			html, body {
+				width:100%;
+				height:100%;
+				padding: 0px;
+				margin: 0px;
+			}
+		
+			body {
+				background:url("fundo.png") no-repeat center center fixed;
+				background-size:cover;
+			}
+			
+			#table {
+				width: 100%;
+				height: 100%;
+				position: static;
+				display: table;
+				*overflow: hidden;
+				*position: relative;
+			}
+
+			#cell {
+				vertical-align: middle;
+				display: table-cell;
+				position: static;
+				*top: 1050%;
+				*position: absolute;
+			}
+			
+			#conteudo {
+				top: 100%;
+				margin: auto;
+				position: relative;
+			}
+			
+			#conteudo img {
+				margin-left:auto;
+				margin-right:auto;
+				display:block;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="table">
+			<div id="cell">
+				<div id="conteudo">
+					<p><img src="imagem.png"/></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
